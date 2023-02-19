@@ -28,6 +28,8 @@ Now that we have a basic understanding of linear regression, let's see how to im
 
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import load_boston
+import pandas as pd
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
